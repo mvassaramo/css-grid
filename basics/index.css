@@ -1,0 +1,13 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 50px);
+  grid-gap: 5px;
+}
+
+/* using shorthand methods for defining grid styles */
+.container-two {
+  display: grid;
+  grid-template: repeat(2, 50px) / repeat(3, 1fr);
+  grid-gap: 5px;
+}
